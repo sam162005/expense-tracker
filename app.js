@@ -130,6 +130,7 @@ app.put("/api/expenses/:id", async (req, res) => {
       amount: amount,
     }
   );
+  
 
   res.status(200).json(updatedExpense);
 });
