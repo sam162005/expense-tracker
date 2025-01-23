@@ -55,7 +55,7 @@ const PORT = 8000;
 const mongoose = require("mongoose");
 const { v4: uuidv4 } = require("uuid");
 
-const mongourl = "mongodb://localhost:27017/Practice";
+const mongourl = "mongodb+srv://samgiftson563:samgiftson16@cluster0.pcx1z.mongodb.net/tracker";
 
 mongoose.connect(mongourl).then(() => {
   console.log("MongoDB connected");
